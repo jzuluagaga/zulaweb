@@ -46,14 +46,13 @@ export function Hero() {
             <Button
               size="lg"
               className="text-base font-semibold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all"
-              asChild
-            >
-              // ✅ CORRECTO
-              <Link href={`https://wa.me/573053277555?text=${encodeURIComponent(`Hola, quiero información sobre ${plan.name}`)}`}>
-                Quiero mi propuesta
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+  asChild
+>
+  <Link href="https://wa.me/573053277555?text=Hola,%20quiero%20mi%20propuesta%20de%20diseño%20web">
+    Quiero mi propuesta
+    <ArrowRight className="ml-2 h-5 w-5" />
+  </Link>
+</Button>
             <Button
               size="lg"
               variant="outline"
