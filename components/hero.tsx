@@ -48,7 +48,7 @@ export function Hero() {
               className="text-base font-semibold shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all"
               asChild
             >
-              <Link href="#planes">
+              <Link href={`https://wa.me/573053277555?text=${encodeURIComponent(`Hola, quiero información sobre ${plan.name}`)}`}">
                 Quiero mi propuesta
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
